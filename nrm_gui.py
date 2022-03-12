@@ -18,7 +18,7 @@ def oprimirBoton(f_entry: Entry, x_entry: Entry, f_txt: StringVar, r_txt: String
 
 if __name__=="__main__": 
     root = Tk()
-    fnt = ('', 30, 'bold')
+    fnt = ('', 15, 'bold')
     root.title("Newton-Raphson Mejorado")
     primer_frame = Frame(root, width=200, height=200, padx=10, pady=10)
     Label(primer_frame, text="Newton-Raphson Mejorado", padx=40, pady=50, font=fnt).grid(columnspan=2)
